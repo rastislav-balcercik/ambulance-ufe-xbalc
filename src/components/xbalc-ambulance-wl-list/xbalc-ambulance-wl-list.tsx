@@ -25,15 +25,7 @@ export class XbalcAmbulanceWlList {
         estimatedStart: new Date(Date.now() + 30 * 60).toISOString(),
         estimatedDurationMinutes: 20,
         condition: 'Teploty',
-      },
-      {
-        name: 'Ing. Ferdinand Trety',
-        patientId: '10028',
-        since: new Date(Date.now() - 72 * 60).toISOString(),
-        estimatedStart: new Date(Date.now() + 5 * 60).toISOString(),
-        estimatedDurationMinutes: 15,
-        condition: 'Bolesti hrdla',
-      },
+      }
     ]);
   }
 
