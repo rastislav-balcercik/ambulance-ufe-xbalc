@@ -20,6 +20,10 @@ export const config: Config = {
   ],
   testing: {
     browserHeadless: 'new',
+    transformIgnorePatterns: ['/node_modules/(?!axios)'],
+    transform: {
+      '^.+\\.(js|jsx)$': 'babel-jest',
+    },
   },
   globalScript: 'src/global/app.ts',
 };
