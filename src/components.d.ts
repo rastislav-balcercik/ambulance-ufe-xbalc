@@ -12,6 +12,8 @@ export namespace Components {
         "basePath": string;
     }
     interface XbalcAmbulanceWlEditor {
+        "ambulanceId": string;
+        "apiBase": string;
         "entryId": string;
     }
     interface XbalcAmbulanceWlList {
@@ -81,6 +83,8 @@ declare namespace LocalJSX {
         "basePath"?: string;
     }
     interface XbalcAmbulanceWlEditor {
+        "ambulanceId"?: string;
+        "apiBase"?: string;
         "entryId"?: string;
         "onEditor-closed"?: (event: XbalcAmbulanceWlEditorCustomEvent<string>) => void;
     }
